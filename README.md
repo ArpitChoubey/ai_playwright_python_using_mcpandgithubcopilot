@@ -1,84 +1,53 @@
-🤖 AI-Powered Test Automation Framework using Playwright, Python, MCP & GitHub Copilot
-<p align="center"> <img src="https://img.shields.io/badge/Playwright-Automation-green?style=for-the-badge&logo=playwright"> <img src="https://img.shields.io/badge/Python-Testing-blue?style=for-the-badge&logo=python"> <img src="https://img.shields.io/badge/AI-GitHub_Copilot-black?style=for-the-badge&logo=github"> <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-purple?style=for-the-badge"> <img src="https://img.shields.io/badge/API-Testing-orange?style=for-the-badge"> </p> <h1 align="center"> 🚀 AI-Driven Test Automation with Playwright, Python, MCP & GitHub Copilot </h1> <p align="center"> A modern automation framework demonstrating how Artificial Intelligence can accelerate UI Testing, API Testing, Framework Development, and Quality Engineering. </p>
-🎯 Project Vision
+# 🤖 AI-Powered Test Automation Framework
+## Playwright • Python • MCP • GitHub Copilot • API Testing • Page Object Model
 
-The software testing landscape is changing rapidly.
+<p align="center">
 
-Today's QA Engineers are expected to do more than execute test cases. They need to:
+![Playwright](https://img.shields.io/badge/Playwright-Automation-45ba4b?style=for-the-badge&logo=playwright)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Pytest](https://img.shields.io/badge/Pytest-Testing-green?style=for-the-badge&logo=pytest)
+![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot-black?style=for-the-badge&logo=github)
+![AI](https://img.shields.io/badge/AI-Assisted-purple?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-orange?style=for-the-badge)
 
-✅ Design scalable frameworks
+</p>
 
-✅ Automate business-critical workflows
+---
 
-✅ Integrate AI into development processes
+# 🚀 Overview
 
-✅ Accelerate delivery without compromising quality
+Artificial Intelligence is rapidly transforming Software Quality Engineering.
 
-This repository showcases my exploration of how Playwright, Python, GitHub Copilot, and MCP (Model Context Protocol) can work together to improve automation efficiency and productivity.
+Modern QA Engineers are expected to build scalable automation frameworks while leveraging AI to accelerate software delivery.
 
-Rather than treating AI as a simple code-completion tool, this project demonstrates how AI can become an active collaborator in the software testing lifecycle.
+This repository demonstrates how **Playwright**, **Python**, **GitHub Copilot**, and **Model Context Protocol (MCP)** can work together to build modern, AI-assisted automation solutions.
 
-👨‍💻 About Me
+Instead of treating AI as an autocomplete tool, this project explores how AI can become a productivity partner throughout the testing lifecycle—from framework development to UI automation, API validation, and test generation.
 
-Hi, I'm Arpit Choubey.
+---
 
-I am passionate about:
+# 🎯 Project Goals
 
-Test Automation
-API Testing
-Playwright
-Selenium
-Python
-AI-Assisted Testing
-Quality Engineering
-CI/CD Automation
-Agile Delivery
+This repository demonstrates practical implementation of:
 
-I enjoy building automation frameworks that improve software quality while reducing manual effort.
+- AI-Assisted Test Development
+- UI Automation with Playwright
+- API Automation
+- Page Object Model (POM)
+- Python Automation Framework Design
+- MCP (Model Context Protocol) Concepts
+- GitHub Copilot Assisted Development
+- Modern Test Automation Practices
 
-Connect With Me
+---
 
-🔗 LinkedIn:
-https://www.linkedin.com/in/arpitchoubey/
+# 🏗 Framework Architecture
 
-🔗 GitHub:
-https://github.com/ArpitChoubey
-
-🚀 Why This Project Stands Out
-
-Most automation repositories focus on:
-
-Login Tests
-CRUD Operations
-Basic UI Automation
-
-This repository explores something more relevant to the future of testing:
-
-AI + Automation Engineering
-
-The framework demonstrates:
-
-✔ AI-Assisted Test Development
-
-✔ GitHub Copilot Integration
-
-✔ MCP-Based Testing Concepts
-
-✔ UI Automation with Playwright
-
-✔ API Testing with Playwright
-
-✔ Page Object Model Implementation
-
-✔ Modern Test Design Practices
-
-✔ Scalable Python Architecture
-
-🏗 Framework Architecture
+```
 ai_playwright_python_using_mcpandgithubcopilot
 │
 ├── AITesting
-│   ├── Test_CodeComplition.py
+│   ├── Test_CodeCompletion.py
 │   ├── search_product.py
 │
 ├── ai
@@ -88,265 +57,312 @@ ai_playwright_python_using_mcpandgithubcopilot
 │   ├── test_login_logout.py
 │
 ├── requirements.txt
-├── README.md
-✨ Key Features
-🤖 AI-Assisted Automation Development
+│
+└── README.md
+```
 
-This project explores how GitHub Copilot can accelerate:
+---
 
-Test creation
-Assertion generation
-Locator suggestions
-Code refactoring
-Framework development
+# ✨ Key Features
+
+## 🤖 AI-Assisted Automation
+
+This project demonstrates how GitHub Copilot can improve productivity by assisting with:
+
+- Test generation
+- Assertion creation
+- Locator suggestions
+- Refactoring
+- Boilerplate reduction
+- Framework development
+
+---
+
+## 🎭 UI Automation
+
+Implemented using Playwright.
+
+Covered scenarios include:
+
+- Login
+- Logout
+- Search
+- Navigation
+- End-to-End User Flow
+- Browser Automation
+
 Benefits
-Faster delivery
-Reduced boilerplate code
-Improved developer productivity
-🎭 UI Automation with Playwright
 
-Playwright provides:
+- Auto Waits
+- Cross Browser Testing
+- Fast Execution
+- Reliable Locators
 
-Cross-browser support
-Auto waits
-Fast execution
-Stable automation
-Test Coverage
+---
 
-✅ Login Validation
+## 🌐 API Testing
 
-✅ Logout Validation
+The framework demonstrates:
 
-✅ Search Functionality
+- GET Requests
+- POST Requests
+- API Validation
+- Status Code Validation
+- Response Validation
+- Business Rule Verification
 
-✅ Navigation Testing
+---
 
-🌐 API Testing with Playwright
+## 🔗 MCP (Model Context Protocol)
 
-Modern applications are API-driven.
+This repository explores early adoption of MCP concepts for software testing.
 
-This framework demonstrates:
+Areas explored include:
 
-API Validations
-Request execution
-Response verification
-Status code validation
-Business logic validation
-Benefits
-Faster feedback loops
-Increased test coverage
-Reliable backend validation
-🔗 MCP (Model Context Protocol) Exploration
+- Context-aware automation
+- AI tool integration
+- Smarter developer workflows
+- Future-ready automation engineering
 
-One of the most exciting parts of this project is experimenting with MCP.
+---
 
-MCP Enables
-AI interaction with tools
-Context-aware automation
-Enhanced AI decision-making
-Better automation workflows
+## 📦 Page Object Model
 
-This is an emerging technology with significant potential for the future of software testing.
+Framework follows Page Object Model principles.
 
-📦 Page Object Model (POM)
-
-The framework follows POM principles to improve:
-
-Maintainability
-Reusability
-Scalability
 Advantages
 
-✔ Cleaner code
+- Better maintainability
+- Reusable components
+- Scalable architecture
+- Cleaner test scripts
 
-✔ Better test organization
+---
 
-✔ Reduced duplication
+# 💻 Technology Stack
 
-✔ Easier maintenance
+| Technology | Purpose |
+|------------|----------|
+| Python | Programming Language |
+| Playwright | UI Automation |
+| Pytest | Test Execution |
+| GitHub Copilot | AI Assisted Development |
+| MCP | Context-Aware AI |
+| Git | Version Control |
+| GitHub | Source Control |
 
-🛠 Technology Stack
-Technology	Purpose
-Python	Programming Language
-Playwright	UI & API Automation
-GitHub Copilot	AI-Assisted Development
-MCP	Context-Aware AI Integration
-Pytest	Test Execution
-Git	Version Control
-GitHub	Repository Hosting
-🧪 Test Scenarios Implemented
-Authentication Testing
-Login Validation
-Logout Validation
-Session Verification
-Search Functionality Testing
-Product Search
-Search Validation
-User Flow Testing
-API Testing
-Request Validation
-Response Verification
-Backend Testing
-AI-Assisted Development
-Test Creation
-Test Optimization
-Productivity Improvements
-🚀 How to Run the Project
+---
+
+# 🧪 Test Scenarios
+
+## UI Testing
+
+- Login
+- Logout
+- Search Products
+- Navigation
+- User Journey Validation
+
+---
+
+## API Testing
+
+- Request Validation
+- Response Validation
+- Status Code Verification
+- Backend Functional Testing
+
+---
+
+## AI-Assisted Development
+
+- Test Creation
+- Locator Suggestions
+- Code Refactoring
+- Productivity Enhancement
+
+---
+
+# 🚀 Getting Started
+
 Clone Repository
+
+```bash
 git clone https://github.com/ArpitChoubey/ai_playwright_python_using_mcpandgithubcopilot.git
-Navigate
-cd ai_playwright_python_using_mcpandgithubcopilot
-Install Dependencies
+```
+
+Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
 Install Playwright
+
+```bash
 playwright install
+```
+
 Run Tests
+
+```bash
 pytest
-📈 Skills Demonstrated
+```
 
-This repository highlights practical experience in:
+---
 
-Test Automation
-UI Automation
-API Automation
-End-to-End Testing
-Programming
-Python
-Object-Oriented Design
-AI Integration
-GitHub Copilot
-AI-Assisted Engineering
-MCP Concepts
-Framework Development
-Page Object Model
-Reusable Components
-Scalable Architecture
-Quality Engineering
-Test Design
-Automation Strategy
-Continuous Improvement
-🌟 What Recruiters & Hiring Managers Will See
+# 📈 Skills Demonstrated
 
-This repository demonstrates:
+## Automation
 
-Technical Skills
+- Playwright
+- Python
+- API Testing
+- UI Testing
+- End-to-End Testing
+
+---
+
+## Framework Design
+
+- Page Object Model
+- Reusable Components
+- Test Organization
+- Scalable Architecture
+
+---
+
+## AI Engineering
+
+- GitHub Copilot
+- AI-Assisted Development
+- MCP Concepts
+- AI Productivity
+
+---
+
+## Software Engineering
+
+- Python
+- OOP
+- Test Design
+- Automation Strategy
+- Maintainable Code
+
+---
+
+# 💼 Why This Repository Matters
+
+Traditional automation repositories often demonstrate:
+
+- Login Tests
+- CRUD Operations
+- Basic Frameworks
+
+This project goes beyond traditional automation by showcasing how modern AI tools can enhance software testing workflows.
+
+It reflects an engineering mindset focused on:
+
+- Continuous Learning
+- Emerging Technologies
+- Automation Innovation
+- Developer Productivity
+- Future-Ready Quality Engineering
+
+---
+
+# 🚀 Future Roadmap
+
+Planned enhancements include:
+
+- Allure Reports
+- GitHub Actions
+- CI/CD Pipelines
+- Docker Support
+- Parallel Execution
+- AI Generated Test Cases
+- Self-Healing Automation
+- Visual Testing
+- Advanced MCP Integrations
+- AI-Based Defect Analysis
+
+---
+
+# 🎯 Ideal For
+
+This repository is valuable for:
+
+- QA Automation Engineers
+- SDETs
+- Software Test Engineers
+- Python Developers
+- Playwright Engineers
+- AI Enthusiasts
+- Hiring Managers evaluating automation portfolios
+
+---
+
+# 👨‍💻 About Me
+
+## Arpit Choubey
+
+**SDET | QA Automation Engineer | Playwright | Selenium | REST Assured | Python | Java | API Testing | AI-Assisted Testing**
+
+I enjoy designing scalable automation frameworks, exploring AI-driven testing approaches, and sharing practical learning through open-source projects.
+
+---
+
+# 🌐 Connect With Me
+
+### GitHub
+
+https://github.com/ArpitChoubey
+
+### LinkedIn
+
+https://www.linkedin.com/in/arpitchoubey/
+
+### Medium
+
+https://medium.com/@ArpitChoubey9
+
+---
+
+# ⭐ Support
+
+If this repository helped you learn modern AI-assisted automation techniques, please consider giving it a **Star ⭐**.
+
+Your support motivates me to continue building practical automation projects for the QA community.
+
+---
+
+# 📌 Recruiter Snapshot
+
+### In less than 60 seconds, this repository demonstrates experience with:
 
 ✅ Playwright
 
 ✅ Python
 
-✅ API Testing
+✅ API Automation
 
-✅ Automation Framework Design
+✅ UI Automation
 
-✅ GitHub Copilot
+✅ Page Object Model
 
 ✅ AI-Assisted Development
 
-Engineering Mindset
+✅ GitHub Copilot
 
-✅ Problem Solving
+✅ MCP Concepts
 
-✅ Continuous Learning
+✅ Automation Framework Design
 
-✅ Innovation
+✅ Modern Software Testing Practices
 
-✅ Modern Testing Practices
+---
 
-✅ Quality-First Thinking
+# 💡 Key Takeaway
 
-Leadership Potential
-
-✅ Framework Ownership
-
-✅ Technical Curiosity
-
-✅ Emerging Technology Adoption
-
-✅ Scalable Solution Design
-
-🔮 Future Roadmap
-
-Planned enhancements include:
-
-Allure Reporting
-CI/CD Integration
-GitHub Actions
-Docker Support
-Parallel Execution
-AI-Based Test Generation
-Self-Healing Automation
-Visual Testing
-Advanced MCP Integrations
-AI-Powered Defect Analysis
-💡 Why This Repository Matters
-
-Most automation frameworks prove that a tester can automate.
-
-This project demonstrates something different:
-
-The ability to adapt to the future of Quality Engineering.
-
-As AI becomes increasingly integrated into software development, testers who understand both automation and AI-assisted engineering will create tremendous value for organizations.
-
-This repository reflects that mindset.
-
-🤝 Let's Connect
-
-I enjoy discussing:
-
-Automation Framework Design
-Playwright
-API Testing
-AI in Software Testing
-Quality Engineering
-Career Growth in QA
-LinkedIn
-
-🔗 https://www.linkedin.com/in/arpitchoubey/
-
-GitHub
-
-🔗 https://github.com/ArpitChoubey
-
-⭐ Support The Project
-
-If you find this project valuable:
-
-⭐ Star the repository
-
-🍴 Fork it
-
-💬 Share feedback
-
-🤝 Connect with me
-
-📌 Recruiter Snapshot
-In Under 60 Seconds You Can See That I Have Experience With:
-
-✔ Playwright
-
-✔ Python
-
-✔ API Testing
-
-✔ UI Automation
-
-✔ Page Object Model
-
-✔ GitHub Copilot
-
-✔ AI-Assisted Development
-
-✔ MCP Concepts
-
-✔ Automation Framework Design
-
-✔ Modern Quality Engineering Practices
-
-🚀 Key Takeaway
-
-"The future of testing isn't AI replacing testers. It's testers who know how to leverage AI outperforming everyone else."
-
-Built by Arpit Choubey | QA Automation Engineer | Playwright Enthusiast | AI-Driven Testing Advocate 🚀
+> **"The future of software testing isn't AI replacing testers—it's testers who know how to leverage AI to deliver better software, faster."**
 
